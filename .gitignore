@@ -1,0 +1,17 @@
+# --- Olympian Master Backup Ignore List ---
+# Ignore the master submodule vault (it manages its own Git history)
+pegasus/
+# Ignore temporary synchronization/config directories
+dir_syncthing/
+dir_autosync/
+# Ignore known large/binary folders
+app_docker/
+app_llama/
+# Ignore compressed/backup files
+*.zip
+*.tar
+*.gz
+*.iso
+# Ignore OS/Editor files
+.DS_Store
+.vscode/

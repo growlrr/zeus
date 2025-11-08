@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = git@github.com:growlrr/growlrr.github.io.git
+	fetch = +refs/*:refs/*
+	mirror = true
+[remote "private"]
+	url = git@github.com:growlrr/growlrr_githubio_clone.git
+	fetch = +refs/heads/*:refs/remotes/private/*
